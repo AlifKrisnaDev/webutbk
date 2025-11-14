@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTBK Center - Belajar UTBK Gratis</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="bi bi-mortarboard-fill me-2"></i>UTBK Center
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang UTBK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#materi">Materi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cbt">Latihan CBT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#narahubung">Narahubung</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-white mb-4">Persiapan UTBK 2026 Gratis untuk Semua</h1>
+                    <p class="lead text-white mb-4">Akses materi lengkap, latihan soal, dan simulasi CBT untuk 7 subtes UTBK-SNBT. Belajar kapan saja, di mana saja!</p>
+                    <a href="#cbt" class="btn btn-light btn-lg me-3">Mulai Latihan</a>
+                    <a href="#about" class="btn btn-outline-light btn-lg">Pelajari Lebih Lanjut</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600" alt="Students" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About UTBK Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Apa itu UTBK-SNBT?</h2>
+                <p class="text-muted">Ujian Tulis Berbasis Komputer - Seleksi Nasional Berbasis Tes</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <i class="bi bi-clipboard-check text-primary" style="font-size: 3rem;"></i>
+                            <h5 class="card-title mt-3">Tes Potensi Skolastik (TPS)</h5>
+                            <p class="card-text">4 subtes yang menguji kemampuan penalaran umum, kuantitatif, pengetahuan & pemahaman umum, dan memahami bacaan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <i class="bi bi-book text-success" style="font-size: 3rem;"></i>
+                            <h5 class="card-title mt-3">Literasi & Numerasi</h5>
+                            <p class="card-text">2 subtes yang menguji kemampuan membaca & menulis (Literasi Indonesia & Inggris) dan Matematika.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <i class="bi bi-award text-warning" style="font-size: 3rem;"></i>
+                            <h5 class="card-title mt-3">Penalaran Matematika</h5>
+                            <p class="card-text">1 subtes yang menguji kemampuan penalaran matematis untuk menyelesaikan masalah.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7 Subtes Section -->
+    <section id="subtes" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">7 Subtes UTBK-SNBT</h2>
+                <p class="text-muted">Kenali setiap subtes yang akan diujikan</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body">
+                            <div class="badge bg-primary mb-3">TPS</div>
+                            <h5 class="card-title">Penalaran Umum</h5>
+                            <p class="card-text small">Menguji kemampuan berpikir logis dalam berbagai konteks.</p>
+                            <button class="btn btn-sm btn-outline-primary" onclick="showSubtesDetail('pu')">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body">
+                            <div class="badge bg-primary mb-3">TPS</div>
+                            <h5 class="card-title">Pengetahuan Kuantitatif</h5>
+                            <p class="card-text small">Menguji kemampuan dasar matematika dan pemecahan masalah.</p>
+                            <button class="btn btn-sm btn-outline-primary" onclick="showSubtesDetail('pk')">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body">
+                            <div class="badge bg-primary mb-3">TPS</div>
+                            <h5 class="card-title">Pengetahuan & Pemahaman Umum</h5>
+                            <p class="card-text small">Menguji wawasan kebangsaan dan pengetahuan umum.</p>
+                            <button class="btn btn-sm btn-outline-primary" onclick="showSubtesDetail('ppu')">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body">
+                            <div class="badge bg-primary mb-3">TPS</div>
+                            <h5 class="card-title">Memahami Bacaan & Menulis</h5>
+                            <p class="card-text small">Menguji kemampuan memahami teks dan menulis dengan baik.</p>
+                            <button class="btn btn-sm btn-outline-primary" onclick="showSubtesDetail('mbm')">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body">
+                            <div class="badge bg-success mb-3">Literasi</div>
+                            <h5 class="card-title">Literasi Bahasa Indonesia</h5>
+                            <p class="card-text small">Menguji kemampuan membaca dan memahami teks Bahasa Indonesia.</p>
+                            <button class="btn btn-sm btn-outline-success" onclick="showSubtesDetail('lbi')">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body">
+                            <div class="badge bg-success mb-3">Literasi</div>
+                            <h5 class="card-title">Literasi Bahasa Inggris</h5>
+                            <p class="card-text small">Menguji kemampuan membaca dan memahami teks Bahasa Inggris.</p>
+                            <button class="btn btn-sm btn-outline-success" onclick="showSubtesDetail('lbing')">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <div class="card-body">
+                            <div class="badge bg-warning mb-3">Penalaran</div>
+                            <h5 class="card-title">Penalaran Matematika</h5>
+                            <p class="card-text small">Menguji kemampuan penalaran matematis tingkat tinggi.</p>
+                            <button class="btn btn-sm btn-outline-warning" onclick="showSubtesDetail('pm')">Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Materi Section -->
+    <section id="materi" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Materi Pembelajaran</h2>
+                <p class="text-muted">Pelajari materi untuk setiap subtes</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="materiAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#materi1">
+                                    <i class="bi bi-book me-2"></i> Penalaran Umum
+                                </button>
+                            </h2>
+                            <div id="materi1" class="accordion-collapse collapse show" data-bs-parent="#materiAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Penalaran Deduktif dan Induktif</li>
+                                        <li>Analogi dan Pola</li>
+                                        <li>Silogisme</li>
+                                        <li>Penalaran Logis</li>
+                                        <li>Bahasa Panda</li>
+                                    </ul>
+                                    <button class="btn btn-sm btn-primary" onclick="showMateriDetail('pu')">Baca Materi Lengkap</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#materi2">
+                                    <i class="bi bi-calculator me-2"></i> Pengetahuan Kuantitatif
+                                </button>
+                            </h2>
+                            <div id="materi2" class="accordion-collapse collapse" data-bs-parent="#materiAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Operasi Aljabar</li>
+                                        <li>Persamaan dan Pertidaksamaan</li>
+                                        <li>Perbandingan dan Rasio</li>
+                                        <li>Geometri Dasar</li>
+                                        <li>Statistika dan Peluang</li>
+                                    </ul>
+                                    <button class="btn btn-sm btn-primary" onclick="showMateriDetail('pk')">Baca Materi Lengkap</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#materi3">
+                                    <i class="bi bi-globe me-2"></i> Pengetahuan & Pemahaman Umum
+                                </button>
+                            </h2>
+                            <div id="materi3" class="accordion-collapse collapse" data-bs-parent="#materiAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Sejarah Indonesia</li>
+                                        <li>Pancasila dan UUD 1945</li>
+                                        <li>Geografi Indonesia</li>
+                                        <li>Ekonomi dan Sosial</li>
+                                        <li>Budaya dan Seni</li>
+                                    </ul>
+                                    <button class="btn btn-sm btn-primary" onclick="showMateriDetail('ppu')">Baca Materi Lengkap</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#materi4">
+                                    <i class="bi bi-journal-text me-2"></i> Literasi Bahasa Indonesia
+                                </button>
+                            </h2>
+                            <div id="materi4" class="accordion-collapse collapse" data-bs-parent="#materiAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Membaca Cepat dan Pemahaman</li>
+                                        <li>Mengidentifikasi Ide Pokok</li>
+                                        <li>Menganalisis Struktur Teks</li>
+                                        <li>PUEBI dan Ejaan</li>
+                                    </ul>
+                                    <button class="btn btn-sm btn-primary" onclick="showMateriDetail('lbi')">Baca Materi Lengkap</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CBT Section -->
+    <section id="cbt" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Latihan Soal CBT</h2>
+                <p class="text-muted">Simulasi ujian seperti UTBK asli</p>
+            </div>
+            
+            <!-- CBT Menu -->
+            <div id="cbtMenu" class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm hover-card">
+                        <div class="card-body text-center">
+                            <i class="bi bi-lightbulb text-primary" style="font-size: 3rem;"></i>
+                            <h5 class="card-title mt-3">Penalaran Umum</h5>
+                            <p class="card-text small">20 Soal | 30 Menit</p>
+                            <button class="btn btn-primary" onclick="startCBT('pu')">Mulai Latihan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm hover-card">
+                        <div class="card-body text-center">
+                            <i class="bi bi-calculator text-success" style="font-size: 3rem;"></i>
+                            <h5 class="card-title mt-3">Pengetahuan Kuantitatif</h5>
+                            <p class="card-text small">20 Soal | 30 Menit</p>
+                            <button class="btn btn-success" onclick="startCBT('pk')">Mulai Latihan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm hover-card">
+                        <div class="card-body text-center">
+                            <i class="bi bi-book text-warning" style="font-size: 3rem;"></i>
+                            <h5 class="card-title mt-3">Literasi B. Indonesia</h5>
+                            <p class="card-text small">20 Soal | 30 Menit</p>
+                            <button class="btn btn-warning" onclick="startCBT('lbi')">Mulai Latihan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CBT Interface -->
+            <div id="cbtInterface" class="d-none">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <h5 class="mb-0" id="cbtTitle">Latihan CBT</h5>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <span class="badge bg-light text-dark fs-6" id="timer">30:00</span>
+                            </div>
+                            <div class="col-md-4 text-end">
+                                <button class="btn btn-light btn-sm" onclick="endCBT()">Akhiri Tes</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div id="questionContainer">
+                                    <!-- Question will be loaded here -->
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <h6 class="fw-bold mb-3">Navigator Soal</h6>
+                                <div id="questionNav" class="question-nav">
+                                    <!-- Question navigation will be loaded here -->
+                                </div>
+                                <div class="mt-3">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <span class="nav-badge answered me-2"></span>
+                                        <small>Sudah Dijawab</small>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-2">
+                                        <span class="nav-badge current me-2"></span>
+                                        <small>Soal Sekarang</small>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <span class="nav-badge me-2"></span>
+                                        <small>Belum Dijawab</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col">
+                                <button class="btn btn-secondary" id="prevBtn" onclick="prevQuestion()">
+                                    <i class="bi bi-chevron-left"></i> Sebelumnya
+                                </button>
+                                <button class="btn btn-primary float-end" id="nextBtn" onclick="nextQuestion()">
+                                    Selanjutnya <i class="bi bi-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CBT Result -->
+            <div id="cbtResult" class="d-none">
+                <div class="card shadow">
+                    <div class="card-body text-center py-5">
+                        <i class="bi bi-check-circle text-success" style="font-size: 5rem;"></i>
+                        <h3 class="mt-4">Latihan Selesai!</h3>
+                        <p class="lead">Hasil Latihan Anda:</p>
+                        <div class="row mt-4">
+                            <div class="col-md-4">
+                                <h2 class="text-primary" id="scoreBenar">0</h2>
+                                <p class="text-muted">Benar</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h2 class="text-danger" id="scoreSalah">0</h2>
+                                <p class="text-muted">Salah</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h2 class="text-warning" id="scoreKosong">0</h2>
+                                <p class="text-muted">Tidak Dijawab</p>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h4>Nilai: <span class="text-primary" id="nilaiAkhir">0</span></h4>
+                        </div>
+                        <button class="btn btn-primary btn-lg mt-4" onclick="backToCBTMenu()">Kembali ke Menu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Narahubung Section start -->
+        <section id="narahubung" class="narahubung">
+          <h2>Tentang Kami</h2>
+          <div class="row">
+            <div class="about-img">
+              <img src="img/tentang-kami.JPG" alt="Tentang Kami" />
+            </div>
+            <div class="content">
+              <h3>Perkenalkan, Kami <span>Tim "hmmm apa yahh"</span></h3>
+              <p>
+                Halo semuanya... Perkenalkan kami adalah Tim "hmmm apa yahh" yang terdiri dari Alif Krisna Putra Priyanto (ketua), Arkandaffa Arjakumara, Flaora Berlyana Waxgenaar, dan Nafisa Daffa Aqila. Kami adalah siswa-siswi SMA Negeri 1 Glagah kelas X. Tujuan kami meneliti dan membuat poster Rimpuh Lontar Yusuf ini adalah untuk menyadarkan pemuda-pemudi bahwa kita mempunyai maha karya yang luar biasa, yaitu Macapat Lontar Yusuf.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Narahubung Section end -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 UTBK Center. Dibuat untuk membantu siswa Indonesia.</p>
+            <p class="small mt-2">Akses gratis untuk semua pelajar Indonesia. Mari bersama wujudkan pendidikan yang merata!</p>
+        </div>
+    </footer>
+
+    <!-- Modal Detail Subtes -->
+    <div class="modal fade" id="subtesModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="subtesModalTitle">Detail Subtes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="subtesModalBody">
+                    <!-- Content will be loaded by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
