@@ -398,7 +398,560 @@ const questionBank = {
             ],
             correct: 1
         }
-    ]
+    ],
+    lbing: [ // Literasi Bahasa Inggris
+    {
+        question: "What is the main idea of the following passage? 'Climate change is one of the most pressing issues of our time. Rising temperatures are causing ice caps to melt, sea levels to rise, and weather patterns to become more extreme.'",
+        options: [
+            "Ice caps are melting rapidly",
+            "Climate change is a critical global issue",
+            "Weather is becoming unpredictable",
+            "Sea levels are rising"
+        ],
+        correct: 1
+    },
+    {
+        question: "The word 'comprehensive' is closest in meaning to...",
+        options: ["Limited", "Complete", "Difficult", "Simple"],
+        correct: 1
+    },
+    {
+        question: "Which sentence is grammatically correct?",
+        options: [
+            "She don't like coffee",
+            "She doesn't likes coffee",
+            "She doesn't like coffee",
+            "She not like coffee"
+        ],
+        correct: 2
+    },
+    {
+        question: "The author's tone in the passage can best be described as...",
+        options: ["Humorous", "Informative", "Angry", "Sarcastic"],
+        correct: 1
+    },
+    {
+        question: "What can be inferred from this sentence? 'Despite the heavy rain, the concert continued as planned.'",
+        options: [
+            "The concert was cancelled",
+            "The organizers were determined",
+            "Everyone went home",
+            "The rain stopped quickly"
+        ],
+        correct: 1
+    },
+    {
+        question: "Choose the correct form: 'If I ___ rich, I would travel the world.'",
+        options: ["am", "was", "were", "be"],
+        correct: 2
+    },
+    {
+        question: "The word 'meticulous' means...",
+        options: ["Careless", "Very careful and precise", "Quick", "Lazy"],
+        correct: 1
+    },
+    {
+        question: "Which transition word shows contrast?",
+        options: ["Moreover", "However", "Therefore", "Furthermore"],
+        correct: 1
+    },
+    {
+        question: "What is the purpose of the following text? 'Scientists recommend eating five servings of fruits and vegetables daily to maintain good health.'",
+        options: [
+            "To entertain",
+            "To persuade",
+            "To inform",
+            "To criticize"
+        ],
+        correct: 2
+    },
+    {
+        question: "The phrase 'break the ice' means to...",
+        options: [
+            "Destroy something frozen",
+            "Start a conversation",
+            "Cool down",
+            "Win a competition"
+        ],
+        correct: 1
+    },
+    {
+        question: "Choose the correct passive form: 'They built this house in 1990.'",
+        options: [
+            "This house built in 1990",
+            "This house was built in 1990",
+            "This house is built in 1990",
+            "This house has built in 1990"
+        ],
+        correct: 1
+    },
+    {
+        question: "What does 'ubiquitous' mean?",
+        options: [
+            "Rare",
+            "Present everywhere",
+            "Ancient",
+            "Expensive"
+        ],
+        correct: 1
+    },
+    {
+        question: "The main argument in an argumentative text is also called...",
+        options: ["Evidence", "Thesis", "Conclusion", "Introduction"],
+        correct: 1
+    },
+    {
+        question: "Which sentence uses the correct comparative form?",
+        options: [
+            "She is more tall than her sister",
+            "She is taller than her sister",
+            "She is more taller than her sister",
+            "She is tallest than her sister"
+        ],
+        correct: 1
+    },
+    {
+        question: "'The novel depicts the struggles of immigrants.' The word 'depicts' means...",
+        options: ["Ignores", "Describes", "Solves", "Questions"],
+        correct: 1
+    },
+    {
+        question: "An effective conclusion paragraph should...",
+        options: [
+            "Introduce new ideas",
+            "Summarize main points",
+            "Ask many questions",
+            "Provide detailed examples"
+        ],
+        correct: 1
+    },
+    {
+        question: "Choose the correct article: '___ European Union consists of 27 member states.'",
+        options: ["A", "An", "The", "No article needed"],
+        correct: 2
+    },
+    {
+        question: "What is a 'metaphor'?",
+        options: [
+            "A direct comparison using 'like' or 'as'",
+            "An indirect comparison without using 'like' or 'as'",
+            "An exaggeration",
+            "A question for effect"
+        ],
+        correct: 1
+    },
+    {
+        question: "The word 'adversity' refers to...",
+        options: [
+            "Good fortune",
+            "Difficult circumstances",
+            "Advertisement",
+            "Agreement"
+        ],
+        correct: 1
+    },
+    {
+        question: "Which is an example of formal language?",
+        options: [
+            "Gonna check it out",
+            "I will investigate the matter",
+            "Wanna see?",
+            "It's cool"
+        ],
+        correct: 1
+    }
+],
+pm: [ // Penalaran Matematika
+    {
+        question: "Jika f(x) = 2x + 3 dan g(x) = x² - 1, maka (f ∘ g)(2) = ?",
+        options: ["9", "11", "13", "15"],
+        correct: 0
+    },
+    {
+        question: "Dalam suatu barisan aritmetika, suku ke-5 adalah 17 dan suku ke-8 adalah 26. Suku pertama barisan tersebut adalah...",
+        options: ["3", "5", "7", "9"],
+        correct: 1
+    },
+    {
+        question: "Sebuah kotak berisi 5 bola merah dan 3 bola biru. Jika diambil 2 bola sekaligus, peluang terambil 1 merah dan 1 biru adalah...",
+        options: ["15/28", "15/56", "3/8", "5/14"],
+        correct: 0
+    },
+    {
+        question: "Nilai x yang memenuhi persamaan log(x+2) + log(x-1) = 1 adalah... (log basis 10)",
+        options: ["2", "3", "4", "5"],
+        correct: 1
+    },
+    {
+        question: "Grafik fungsi y = x² - 4x + 3 memotong sumbu x di titik...",
+        options: ["(1,0) dan (3,0)", "(0,1) dan (0,3)", "(-1,0) dan (-3,0)", "(2,0) dan (4,0)"],
+        correct: 0
+    },
+    {
+        question: "Jika sin A = 3/5 dan A sudut lancip, maka tan A = ?",
+        options: ["3/4", "4/3", "4/5", "5/4"],
+        correct: 0
+    },
+    {
+        question: "Banyaknya cara menyusun 4 orang dari 7 orang untuk duduk berjajar adalah...",
+        options: ["24", "210", "840", "5040"],
+        correct: 2
+    },
+    {
+        question: "Jumlah 10 suku pertama deret geometri 2, 6, 18, ... adalah...",
+        options: ["29524", "39366", "59048", "88572"],
+        correct: 2
+    },
+    {
+        question: "Nilai maksimum fungsi f(x) = -x² + 4x + 5 adalah...",
+        options: ["5", "7", "9", "11"],
+        correct: 2
+    },
+    {
+        question: "Jika matriks A = [[2,1],[3,2]] maka determinan A adalah...",
+        options: ["1", "2", "3", "4"],
+        correct: 0
+    },
+    {
+        question: "Akar-akar persamaan x² - 5x + 6 = 0 adalah...",
+        options: ["1 dan 6", "2 dan 3", "-2 dan -3", "1 dan 5"],
+        correct: 1
+    },
+    {
+        question: "Limit dari (x² - 9)/(x - 3) ketika x mendekati 3 adalah...",
+        options: ["0", "3", "6", "9"],
+        correct: 2
+    },
+    {
+        question: "Jika vektor a = (3,4) maka panjang vektor a adalah...",
+        options: ["5", "7", "√7", "25"],
+        correct: 0
+    },
+    {
+        question: "Nilai dari ∫(2x + 3)dx dari 0 sampai 2 adalah...",
+        options: ["8", "10", "12", "14"],
+        correct: 1
+    },
+    {
+        question: "Dalam notasi sigma, Σ(2i+1) dari i=1 sampai 5 sama dengan...",
+        options: ["25", "30", "35", "40"],
+        correct: 2
+    },
+    {
+        question: "Jika f(x) = x³, maka f'(2) = ? (turunan pertama)",
+        options: ["6", "8", "12", "24"],
+        correct: 2
+    },
+    {
+        question: "Median dari data: 3, 7, 5, 9, 11, 4, 8 adalah...",
+        options: ["5", "7", "8", "9"],
+        correct: 1
+    },
+    {
+        question: "Persamaan garis yang melalui (2,3) dan sejajar dengan y = 2x + 1 adalah...",
+        options: ["y = 2x - 1", "y = 2x + 1", "y = 2x", "y = 2x + 3"],
+        correct: 0
+    },
+    {
+        question: "Jika log₂8 = 3, maka log₂16 = ?",
+        options: ["2", "3", "4", "5"],
+        correct: 2
+    },
+    {
+        question: "Nilai dari ³√(-27) adalah...",
+        options: ["-3", "-9", "3", "9"],
+        correct: 0
+    }
+],
+ppu: [ // Pengetahuan & Pemahaman Umum
+    {
+        question: "Pancasila pertama kali diucapkan oleh Soekarno pada tanggal...",
+        options: ["1 Juni 1945", "17 Agustus 1945", "18 Agustus 1945", "1 Oktober 1945"],
+        correct: 0
+    },
+    {
+        question: "Lembaga yang berwenang mengubah dan menetapkan UUD 1945 adalah...",
+        options: ["DPR", "MPR", "Presiden", "MA"],
+        correct: 1
+    },
+    {
+        question: "Ibukota provinsi Kalimantan Timur adalah...",
+        options: ["Balikpapan", "Samarinda", "Tenggarong", "Bontang"],
+        correct: 1
+    },
+    {
+        question: "Proklamasi kemerdekaan Indonesia dibacakan di...",
+        options: [
+            "Jalan Merdeka, Jakarta",
+            "Jalan Pegangsaan Timur 56, Jakarta",
+            "Gedung Pancasila, Jakarta",
+            "Istana Merdeka, Jakarta"
+        ],
+        correct: 1
+    },
+    {
+        question: "Sistem ekonomi Indonesia berdasarkan Pasal 33 UUD 1945 adalah...",
+        options: [
+            "Ekonomi Liberal",
+            "Ekonomi Terpusat",
+            "Ekonomi Kerakyatan",
+            "Ekonomi Campuran"
+        ],
+        correct: 2
+    },
+    {
+        question: "Gunung tertinggi di Indonesia adalah...",
+        options: [
+            "Gunung Semeru",
+            "Gunung Kerinci",
+            "Puncak Jaya",
+            "Gunung Rinjani"
+        ],
+        correct: 2
+    },
+    {
+        question: "Pahlawan nasional yang dikenal sebagai 'Bapak Pendidikan Nasional' adalah...",
+        options: [
+            "R.A. Kartini",
+            "Ki Hajar Dewantara",
+            "Mohammad Hatta",
+            "Soekarno"
+        ],
+        correct: 1
+    },
+    {
+        question: "ASEAN didirikan pada tanggal...",
+        options: [
+            "8 Agustus 1967",
+            "8 Agustus 1965",
+            "10 Agustus 1967",
+            "17 Agustus 1967"
+        ],
+        correct: 0
+    },
+    {
+        question: "Lambang negara Indonesia adalah...",
+        options: ["Garuda", "Burung Cenderawasih", "Harimau", "Komodo"],
+        correct: 0
+    },
+    {
+        question: "Hari Kebangkitan Nasional diperingati setiap tanggal...",
+        options: ["20 Mei", "21 April", "28 Oktober", "10 November"],
+        correct: 0
+    },
+    {
+        question: "Presiden pertama Republik Indonesia adalah...",
+        options: ["Mohammad Hatta", "Soekarno", "Soeharto", "B.J. Habibie"],
+        correct: 1
+    },
+    {
+        question: "Tari Saman berasal dari provinsi...",
+        options: ["Jawa Barat", "Sumatera Utara", "Aceh", "Bali"],
+        correct: 2
+    },
+    {
+        question: "Lembaga yang bertugas mengawasi jalannya pemilu adalah...",
+        options: ["KPU", "Bawaslu", "DKPP", "MK"],
+        correct: 1
+    },
+    {
+        question: "Borobudur merupakan candi peninggalan kerajaan...",
+        options: ["Majapahit", "Sriwijaya", "Syailendra", "Mataram Kuno"],
+        correct: 2
+    },
+    {
+        question: "Mata uang resmi Indonesia adalah...",
+        options: ["Ringgit", "Rupiah", "Baht", "Peso"],
+        correct: 1
+    },
+    {
+        question: "Sumpah Pemuda dikumandangkan pada tahun...",
+        options: ["1908", "1928", "1945", "1965"],
+        correct: 1
+    },
+    {
+        question: "Pulau terluas di Indonesia adalah...",
+        options: ["Jawa", "Sumatera", "Kalimantan", "Papua"],
+        correct: 3
+    },
+    {
+        question: "Organisasi kepemudaan yang mempelopori Sumpah Pemuda adalah...",
+        options: ["Budi Utomo", "Jong Java", "Perhimpunan Indonesia", "Beragam organisasi pemuda"],
+        correct: 3
+    },
+    {
+        question: "Pancasila sebagai dasar negara disahkan pada tanggal...",
+        options: ["1 Juni 1945", "17 Agustus 1945", "18 Agustus 1945", "22 Juni 1945"],
+        correct: 2
+    },
+    {
+        question: "Selat yang memisahkan Pulau Jawa dan Sumatera adalah...",
+        options: ["Selat Malaka", "Selat Sunda", "Selat Bali", "Selat Karimata"],
+        correct: 1
+    }
+],
+mbm: [ // Memahami Bacaan & Menulis
+    {
+        question: "Perhatikan paragraf berikut: 'Pendidikan karakter sangat penting ditanamkan sejak dini. Dengan pendidikan karakter, anak akan tumbuh menjadi individu yang berakhlak mulia. Oleh karena itu, orang tua dan guru harus bekerja sama dalam membentuk karakter anak.' Ide pokok paragraf tersebut adalah...",
+        options: [
+            "Peran orang tua dalam pendidikan",
+            "Pentingnya pendidikan karakter sejak dini",
+            "Akhlak mulia pada anak",
+            "Kerja sama guru dan orang tua"
+        ],
+        correct: 1
+    },
+    {
+        question: "Kalimat yang menggunakan kata baku adalah...",
+        options: [
+            "Dia nggak datang ke sekolah hari ini",
+            "Dia tidak hadir di sekolah hari ini",
+            "Dia gak masuk sekolah hari ini",
+            "Dia nggak masuk ke sekolah hari ini"
+        ],
+        correct: 1
+    },
+    {
+        question: "Struktur teks argumentasi yang benar adalah...",
+        options: [
+            "Pendahuluan - Argumen - Kesimpulan",
+            "Orientasi - Komplikasi - Resolusi",
+            "Pembuka - Isi - Penutup",
+            "Tesis - Argumen - Penegasan Ulang"
+        ],
+        correct: 3
+    },
+    {
+        question: "Penulisan kata serapan yang benar dari 'system' adalah...",
+        options: ["sistem", "sisitem", "systim", "sisthim"],
+        correct: 0
+    },
+    {
+        question: "Bacalah teks berikut: 'Hujan deras mengguyur kota sejak pagi. Banyak jalan tergenang air. Akibatnya, kemacetan terjadi di mana-mana.' Hubungan antarkalimat dalam teks tersebut menunjukkan...",
+        options: [
+            "Sebab-akibat",
+            "Pertentangan",
+            "Perbandingan",
+            "Penambahan"
+        ],
+        correct: 0
+    },
+    {
+        question: "Kalimat yang efektif adalah...",
+        options: [
+            "Para siswa-siswa diminta untuk mengumpulkan tugas",
+            "Para siswa diminta untuk mengumpulkan tugas",
+            "Siswa-siswa diminta mengumpulkan tugas",
+            "Para siswa diminta mengumpulkan tugas"
+        ],
+        correct: 3
+    },
+    {
+        question: "Fungsi dari paragraf penutup dalam sebuah esai adalah...",
+        options: [
+            "Memperkenalkan topik baru",
+            "Menegaskan kembali ide utama",
+            "Memberikan contoh detail",
+            "Menyajikan data statistik"
+        ],
+        correct: 1
+    },
+    {
+        question: "Kata penghubung yang menyatakan akibat adalah...",
+        options: ["karena", "meskipun", "sehingga", "tetapi"],
+        correct: 2
+    },
+    {
+        question: "Ciri-ciri teks eksposisi adalah...",
+        options: [
+            "Bersifat imajinatif dan menarik",
+            "Menyajikan informasi dan penjelasan",
+            "Menceritakan pengalaman pribadi",
+            "Mengajak pembaca melakukan sesuatu"
+        ],
+        correct: 1
+    },
+    {
+        question: "Penulisan gelar yang benar adalah...",
+        options: [
+            "Dr. Ahmad, M.Pd",
+            "Dr Ahmad M.Pd.",
+            "Dr Ahmad, M.Pd.",
+            "Dr. Ahmad, M.Pd."
+        ],
+        correct: 3
+    },
+    {
+        question: "Jenis kalimat berdasarkan jumlah klausa: 'Ibu memasak di dapur, adik bermain di taman' adalah kalimat...",
+        options: ["Tunggal", "Majemuk setara", "Majemuk bertingkat", "Kompleks"],
+        correct: 1
+    },
+    {
+        question: "Makna kata 'kondusif' adalah...",
+        options: [
+            "Menimbulkan kegaduhan",
+            "Mendukung terciptanya suasana yang baik",
+            "Sulit dipahami",
+            "Tidak pasti"
+        ],
+        correct: 1
+    },
+    {
+        question: "Paragraf yang kalimat utamanya terletak di awal disebut paragraf...",
+        options: ["Induktif", "Deduktif", "Campuran", "Naratif"],
+        correct: 1
+    },
+    {
+        question: "Tanda baca yang tepat untuk melengkapi kalimat: 'Dia membawa buku_pensil_dan penghapus' adalah...",
+        options: ["titik", "koma", "titik dua", "titik koma"],
+        correct: 1
+    },
+    {
+        question: "Sinonim kata 'analisis' adalah...",
+        options: ["Sintesis", "Penelaahan", "Kesimpulan", "Pendahuluan"],
+        correct: 1
+    },
+    {
+        question: "Kalimat yang mengandung majas personifikasi adalah...",
+        options: [
+            "Wajahnya bersih seperti bulan",
+            "Angin berbisik di telinga",
+            "Suaranya menggelegar",
+            "Dia berlari secepat kilat"
+        ],
+        correct: 1
+    },
+    {
+        question: "Fungsi teks deskripsi adalah...",
+        options: [
+            "Meyakinkan pembaca",
+            "Menggambarkan objek secara detail",
+            "Menceritakan kejadian",
+            "Memberikan instruksi"
+        ],
+        correct: 1
+    },
+    {
+        question: "Kata baku untuk 'nasehat' adalah...",
+        options: ["nasihat", "naséhat", "nasihet", "nasehad"],
+        correct: 0
+    },
+    {
+        question: "Konjungsi yang menyatakan pertentangan adalah...",
+        options: ["dan", "atau", "namun", "lalu"],
+        correct: 2
+    },
+    {
+        question: "Dalam menulis karya ilmiah, bahasa yang digunakan harus bersifat...",
+        options: [
+            "Emotif dan menarik",
+            "Objektif dan lugas",
+            "Imajinatif dan kreatif",
+            "Persuasif dan meyakinkan"
+        ],
+        correct: 1
+    }
+]
 };
 
 // Detail Subtes
@@ -582,12 +1135,15 @@ function startCBT(subtesType) {
     document.getElementById('cbtResult').classList.add('d-none');
     
     // Set title
-    const titles = {
-        pu: 'Penalaran Umum',
-        pk: 'Pengetahuan Kuantitatif',
-        lbi: 'Literasi Bahasa Indonesia'
-    };
-    document.getElementById('cbtTitle').textContent = `Latihan CBT - ${titles[subtesType] || 'UTBK'}`;
+const titles = {
+    pu: 'Penalaran Umum',
+    pk: 'Pengetahuan Kuantitatif',
+    lbi: 'Literasi Bahasa Indonesia',
+    lbing: 'Literasi Bahasa Inggris',
+    pm: 'Penalaran Matematika',
+    ppu: 'Pengetahuan & Pemahaman Umum',
+    mbm: 'Memahami Bacaan & Menulis'
+};
     
     // Start timer
     timeLeft = 1800; // 30 minutes

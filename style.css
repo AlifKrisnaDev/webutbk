@@ -1,10 +1,11 @@
 /* General Styles */
 :root {
-    --primary-color: #0d6efd;
+    --primary-color: #4e5c00;
     --secondary-color: #6c757d;
     --success-color: #198754;
     --warning-color: #ffc107;
     --danger-color: #dc3545;
+    --white-font: #ffffff;
 }
 
 * {
@@ -44,9 +45,18 @@ body {
     opacity: 0.8;
 }
 
+/* Override Bootstrap Primary Color */
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
 /* Hero Section */
 .hero-section {
-  min-height: 60vh;
+  min-height: 400px;
   display: flex;
   align-items: center;
   background-image: url("img/herosection.jpg");
@@ -95,6 +105,33 @@ body {
     border-radius: 15px;
 }
 
+/* Ubah warna teks di section About UTBK */
+#about h2 {
+    color: var(--primary-color);
+}
+
+#about p{
+    color: var(--primary-color) !important; 
+}
+
+#about .card-title {
+    color: var(--primary-color);
+}
+
+#about .card-text {
+    color: #374151; /* Abu-abu gelap untuk keterbacaan */
+}
+
+/* Atau jika mau semua teks jadi primary */
+#about .card-body {
+    color: var(--primary-color);
+}
+
+#about .card.bg-primary .card-text{
+    color: var(--white-font) !important;
+}
+
+
 /* Card Styles */
 .card {
     border: none;
@@ -107,13 +144,42 @@ body {
     box-shadow: 0 15px 30px rgba(0,0,0,0.15);
 }
 
+/* Custom Color untuk Title 7 Subtes */
+#subtes h2 {
+    color: #FFFFFF; /* Ungu */
+}
+
+/* Ubah warna deskripsi di bawah title 7 Subtes */
+#subtes .text-center .text-muted {
+    color: #ffffff !important;
+}
+
+#materi h2 {
+    color: var(--primary-color);
+}
+
+#materi .text-center .text-muted {
+    color: var(--primary-color) !important;
+}
+/* Custom Button Outline - Ungu */
+.btn-outline-custom {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-custom:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
 /* Section Styles */
 section {
     scroll-margin-top: 70px;
 }
 
 .bg-light {
-    background-color: #f8f9fa !important;
+    background-color: #8d9660 !important;
 }
 
 /* Accordion Styles */
@@ -125,6 +191,21 @@ section {
 .accordion-button:focus {
     box-shadow: none;
     border-color: var(--primary-color);
+}
+
+#cbt h2 {
+    color: var(--white-font);
+}
+
+#cbt .text-center .text-muted {
+    color: var(--white-font) !important;
+}
+#cbt h5 {
+    color: #4e5c00;
+}
+
+.text-custom-primary {
+    color: var(--primary-color) !important; /* Memastikan warna hijau gelap Anda yang digunakan */
 }
 
 /* CBT Styles */
@@ -251,9 +332,9 @@ section {
 
 .narahubung h2 {
   text-align: center;
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   margin-bottom: 3rem;
-  color: #000;
+  color: var(--primary-color);
 }
 
 .narahubung .row {
@@ -375,11 +456,18 @@ footer {
     }
 }
 
-/* Utility Classes */
+
+/* style.css (Kode Baru untuk Warna Primary Solid) */
 .text-gradient {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* Reset properti gradient agar tidak menimpa
+       Penggunaan 'unset' dan 'none' memastikan properti tersebut dinonaktifkan
+    */
+    background: none;
+    -webkit-background-clip: unset; 
+    -webkit-text-fill-color: unset; /* PENTING: Menonaktifkan transparansi teks */
+    
+    /* Menerapkan warna primary solid kustom Anda */
+    color: var(--primary-color) !important; 
 }
 
 .shadow-lg {
@@ -392,10 +480,11 @@ footer {
 }
 
 .modal-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background-color: var(--primary-color) !important;
+    color: white !important;
     border-radius: 15px 15px 0 0;
 }
+
 
 .modal-header .btn-close {
     filter: brightness(0) invert(1);
@@ -417,4 +506,17 @@ footer {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+/* style.css - Tambahkan di bagian akhir */
+
+/* Override Bootstrap Primary Color untuk Tombol dan Komponen Lainnya */
+.btn-primary {
+    --bs-btn-color: var(--white-font); /* Warna teks tombol */
+    --bs-btn-bg: var(--primary-color); /* Warna latar belakang tombol */
+    --bs-btn-border-color: var(--primary-color); /* Warna border tombol */
+    --bs-btn-hover-bg: #6c7e14; /* Warna hover (sedikit lebih terang/gelap) */
+    --bs-btn-hover-border-color: #6c7e14;
+    --bs-btn-active-bg: #404c00; /* Warna active (lebih gelap) */
+    --bs-btn-active-border-color: #404c00;
 }
