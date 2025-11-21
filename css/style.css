@@ -59,7 +59,7 @@ body {
   min-height: 400px;
   display: flex;
   align-items: center;
-  background-image: url("img/herosection.jpg");
+  background-image: url("../img/herosection.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
